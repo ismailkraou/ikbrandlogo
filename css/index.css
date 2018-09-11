@@ -1,0 +1,92 @@
+
+
+*, a, a:hover {
+    outline: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    background: #eee;
+    overflow:hidden;
+    height: 100vh;
+    text-align: center;
+}
+
+.div-centent {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.div-title {
+    margin: 20px 0;
+    font-family: Helvetica;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: blue;
+}
+
+.div-brand {
+    width: 400px;
+    max-width: 400px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+            box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.div-resauxlink {
+    width: 420px;
+    margin: auto;
+    padding: 10px;
+}
+.div-resauxlink a{
+    color: rgba(0, 0, 255, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0px 0px 0.5px rgba(0, 0, 255, 0.5);
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+.div-resauxlink a:hover {
+    background: rgb(160, 160, 160);
+    color: blue;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+.div-resauxlink a span{
+    padding: 5px;
+    border-radius: 50%;
+    background: rgb(160, 160, 160);
+    color: blue;
+    font-style: italic;
+    font-size: 15px;
+    margin: 0 5px;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+.div-resauxlink a:hover span {
+    background: #eee;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+.div-resauxlink a.left {
+    position: relative;
+    float: left;
+}
+.div-resauxlink a.right {
+    position: relative;
+    float: right;
+}
+
